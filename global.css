@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define a base do site */
+html {
+    font-size: 16px;
+    /* 1rem = 16px */
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    /* texto padrão = 16px */
+    line-height: 1.5;
+    /* melhora a legibilidade */
+    font-family: 'roboto', sans-serif;
+    color: #332e22e8;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: clamp(1.8rem, 2vw, 2.7rem);
+    font-family: 'Libre Baskerville', serif;
+    color: #3B2F2A;
+}
+
+
+/* Títulos principais */
+h1 {
+    font-size: clamp(2rem, 2vw, 3.5rem);
+    font-family: 'Libre Baskerville', serif;
+    color: #3B2F2A;
+    /* mínimo 32px, máximo 48px */
+    font-weight: bold;
+}
+
+/* Subtítulos */
+h2 {
+    
+    /* mínimo 24px, máximo 40px */
+    font-weight: bold;
+}
+
+/* Texto padrão */
+p {
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    /* 16px */
+    margin-bottom: 1rem;
+}
+
+span {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+
+.container{
+    padding: 1em;
+}
