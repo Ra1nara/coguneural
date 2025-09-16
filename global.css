@@ -7,7 +7,7 @@
 /* Define a base do site */
 html {
     font-size: 16px;
-    /* 1rem = 16px */
+    scroll-behavior: smooth;
 }
 
 body {
